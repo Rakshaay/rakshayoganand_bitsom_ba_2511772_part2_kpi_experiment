@@ -271,6 +271,7 @@ Summary metrices
 Hypothesis metrice
 <img width="552" height="337" alt="image" src="https://github.com/user-attachments/assets/564cd4e6-a258-4dcf-ba03-de0a30da9f17" />
 
-k-tree
+kpi-tree
+<img width="1536" height="1024" alt="kpi_tree_preview" src="https://github.com/user-attachments/assets/fb35f678-08ea-4b70-ab72-63b84573f6f2" />
 
 
