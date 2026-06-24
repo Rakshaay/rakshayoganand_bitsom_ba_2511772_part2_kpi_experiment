@@ -208,3 +208,59 @@ Therefore, the North Star metric should always be evaluated alongside guardrail 
 | **Average Engagement Score**           | **57.03**   | **62.69**     |
 | **Average Days to Convert**            | **8.86**    | **6.40**      |
 
+Guardrail Metric Evaluation
+
+While the Treatment group shows a significant improvement in Paid Conversion Rate (6.99% vs 3.17%), additional guardrail metrics must be evaluated to ensure that the improvement does not negatively impact the overall user experience or business performance.
+
+Guardrail Metric	Control	Treatment	Evaluation
+Refund Rate	0.00%	0.42%	Slight increase in refunds, but the rate remains very low and does not represent a major business risk.
+Support Ticket Rate	14.72%	24.58%	Significant increase in support requests, indicating that users may require additional assistance during the new onboarding process.
+Average Days to Convert	8.86 days	6.40 days	Positive outcome. Users convert more quickly, improving activation and reducing time to revenue.
+Average Engagement Score	57.03	62.69	Positive outcome. Higher engagement suggests that users interact more effectively with the new onboarding experience.
+Average Revenue per User	51.75	53.88	Slight improvement in revenue generated per user, supporting business growth.
+Risk Assessment
+1. Refund Rate
+
+The refund rate increased slightly from 0.00% to 0.42%. Although this represents an increase, the overall percentage remains very low and is unlikely to have a significant financial impact.
+
+Risk Level: Low 
+
+2. Support Ticket Rate
+
+The support ticket rate increased from 14.72% to 24.58%.
+
+This suggests that the new onboarding experience may create confusion or require additional customer support.
+
+Risk Level: Moderate 
+
+This metric should be monitored closely after rollout, and improvements to onboarding instructions or FAQs may help reduce support requests.
+
+3. Average Days to Convert
+
+Users in the Treatment group converted in 6.40 days, compared with 8.86 days in the Control group.
+
+This indicates that the new campaign helps users become paying customers more quickly.
+
+Risk Level: None 
+
+4. Average Engagement Score
+
+The Treatment group's engagement score increased from 57.03 to 62.69.
+
+Higher engagement indicates a better user experience and increases the likelihood of long-term retention.
+
+Risk Level: None 
+
+5. Revenue Quality
+
+Average revenue per user increased from 51.75 to 53.88, suggesting that the increase in conversions is accompanied by slightly higher revenue generation rather than low-quality acquisitions.
+
+Risk Level: Low 
+
+Overall Guardrail Evaluation
+
+The Treatment group demonstrates substantial improvements in paid conversion rate, engagement score, average revenue per user, and speed of conversion.
+
+The only notable concern is the increase in support ticket rate, which may indicate onboarding complexity. However, this risk appears manageable and does not outweigh the significant improvement in the primary business metric.
+
+Conclusion: The guardrail metrics do not present sufficient risk to prevent rollout. The Treatment campaign can be recommended for deployment while monitoring customer support requests and optimizing the onboarding experience.
