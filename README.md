@@ -98,6 +98,97 @@ Possible risks include:
 
 * Users may convert initially but request refunds shortly afterward.
 * Aggressive onboarding tactics may increase support tickets and reduce customer satisfaction.
+
+Data Cleaning & Preparation
+
+The experiment dataset was reviewed and prepared before performing the KPI and A/B experiment analysis. The following data quality checks were conducted.
+
+1. Missing Values
+Total Missing Values: 1,392
+Handling
+
+The missing values were reviewed to determine whether they represented data quality issues or expected business scenarios.
+
+Missing values in categorical fields were treated as "Unknown" where appropriate.
+Missing values in fields such as conversion-related attributes were retained if they represented users who had not completed the corresponding action.
+Since the missing values did not significantly impact the experiment groups, no records were removed.
+2. Group Counts
+
+The distribution of users across the experiment groups was checked to ensure a balanced A/B test.
+
+Experiment Group	User Count
+Control	693
+Treatment	715
+Total	1408
+Observation
+
+The Control and Treatment groups have similar sample sizes, indicating a reasonably balanced experiment suitable for comparison.
+
+3. Duplicate User IDs
+
+A duplicate check was performed using the user_id field.
+
+Duplicate User IDs Found: 16
+Handling
+
+Duplicate records were identified and removed, ensuring that each user is represented only once in the experiment analysis.
+
+4. Invalid Binary Values
+
+The following binary columns were validated:
+
+visited_landing_page
+started_trial
+completed_onboarding
+converted_to_paid
+refund_requested
+Result
+Invalid Binary Values Found: 0
+Handling
+
+All binary variables contained only valid values (0 and 1). Therefore, no corrections were required.
+
+5. Revenue Outliers
+
+Outliers in revenue_30d were identified using the IQR (Interquartile Range) method.
+
+Revenue Outliers Detected: 72
+Handling
+
+The identified outliers were retained because they represent genuine high-value customers rather than data entry errors. Removing these observations would distort the business analysis and underestimate actual revenue performance.
+
+6. Segment Distribution Across Groups
+
+The distribution of user segments was evaluated using Pivot Tables.
+
+Region Distribution
+Region	Control	Treatment
+East	158	172
+North	203	180
+South	184	184
+West	148	179
+Observation
+Region distribution is reasonably balanced across both experiment groups.
+No single region dominates either group.
+Device Type Distribution
+Desktop: 414
+Mobile: 864
+Tablet: 112
+Missing/Blank: 18
+Traffic Source Distribution
+Email: 130
+Organic: 487
+Paid Search: 332
+Referral: 172
+Social: 263
+Missing/Blank: 24
+Plan Type Distribution
+Basic: 458
+Free: 729
+Premium: 221
+Overall Observation
+
+The distributions across region, device type, traffic source, and plan type are reasonably balanced. Minor missing values are minimal and are not expected to introduce bias into the experiment.
 * Low-quality users may convert but generate little long-term revenue.
 * User engagement may decline even if short-term conversions improve.
 
