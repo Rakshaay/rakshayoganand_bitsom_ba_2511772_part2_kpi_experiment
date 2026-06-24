@@ -67,3 +67,50 @@ Paid Conversion Rate is the company's North Star Metric and directly reflects bu
 ## Business Decision Connection
 
 The hypothesis test provides statistical evidence for deciding whether the new onboarding campaign should be launched to all users. The final recommendation will consider both the improvement in paid conversion rate and the performance of guardrail metrics such as refund rate, support ticket rate, revenue, and engagement score.
+
+
+# Hypothesis Test Results
+
+## Test Used
+
+Two-Sample Proportion Z-Test
+
+## Test Inputs
+
+Control Users: 693
+
+Treatment Users: 715
+
+Control Conversions: 22
+
+Treatment Conversions: 50
+
+Control Conversion Rate: 3.17%
+
+Treatment Conversion Rate: 6.99%
+
+## Test Output
+
+Z-score: 3.25
+
+P-value: 0.00058
+
+Significance Level: 0.05
+
+## Decision Rule
+
+If p-value < 0.05, reject the null hypothesis.
+
+## Result
+
+Since the p-value (0.00058) is less than the significance level (0.05), the null hypothesis is rejected.
+
+There is statistically significant evidence that the new onboarding campaign increases the paid conversion rate.
+
+## Business Interpretation
+
+The Treatment group achieved a paid conversion rate of 6.99%, compared to 3.17% for the Control group.
+
+This represents more than a twofold improvement in paid conversions and is statistically significant.
+
+However, before recommending a full rollout, leadership should also review guardrail metrics such as refund rate and support ticket rate to ensure that the increase in conversions does not negatively impact customer experience.
