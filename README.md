@@ -264,3 +264,13 @@ The Treatment group demonstrates substantial improvements in paid conversion rat
 The only notable concern is the increase in support ticket rate, which may indicate onboarding complexity. However, this risk appears manageable and does not outweigh the significant improvement in the primary business metric.
 
 Conclusion: The guardrail metrics do not present sufficient risk to prevent rollout. The Treatment campaign can be recommended for deployment while monitoring customer support requests and optimizing the onboarding experience.
+
+Summary metrices
+<img width="649" height="525" alt="image" src="https://github.com/user-attachments/assets/4756c6e6-5da0-40a3-88e8-a9267ac50503" />
+
+Hypothesis metrice
+<img width="552" height="337" alt="image" src="https://github.com/user-attachments/assets/564cd4e6-a258-4dcf-ba03-de0a30da9f17" />
+
+k-tree
+
+
