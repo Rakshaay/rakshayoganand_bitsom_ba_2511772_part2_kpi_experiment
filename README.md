@@ -194,4 +194,17 @@ The distributions across region, device type, traffic source, and plan type are 
 
 Therefore, the North Star metric should always be evaluated alongside guardrail metrics such as **refund_requested**, **support_tickets_30d**, **revenue_30d**, and **engagement_score** to ensure that business growth is both profitable and sustainable.
 
+| **Metric**                             | **Control** | **Treatment** |
+| -------------------------------------- | ----------- | ------------- |
+| **User Count**                         | **693**     | **715**       |
+| **Landing Page Visit Rate**            | **63.64%**  | **72.59%**    |
+| **Trial Start Rate**                   | **25.11%**  | **29.09%**    |
+| **Onboarding Completion Rate**         | **15.58%**  | **21.26%**    |
+| **Paid Conversion Rate**               | **3.17%**   | **6.99%**     |
+| **Average Revenue per User**           | **51.75**   | **53.88**     |
+| **Average Revenue per Converted User** | **1630.10** | **770.41**    |
+| **Refund Rate**                        | **0.00%**   | **0.42%**     |
+| **Support Ticket Rate**                | **14.72%**  | **24.58%**    |
+| **Average Engagement Score**           | **57.03**   | **62.69**     |
+| **Average Days to Convert**            | **8.86**    | **6.40**      |
 
